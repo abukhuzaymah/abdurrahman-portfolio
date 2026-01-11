@@ -1,0 +1,225 @@
+{
+  "name": "Aziz Baatout",
+  "title": "Student Software Developer",
+  "city": "Ghent",
+  "country": "Belgium",
+  "phone": "+32456150084",
+  "email": "aziz.baatout@gmail.com",
+  "links": [
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/aziz-baatout" },
+    { "name": "GitHub", "url": "https://github.com/aziz-baatout" },
+    { "name": "Email", "url": "mailto:aziz.baatout@gmail.com" }
+  ],
+  "education": [
+    {
+      "school": "HoGent",
+      "location": "Ghent, Belgium",
+      "degree": "Bachelor of Applied Computer Science, AI and Data Engineering",
+      "startDate": "2023-09-26",
+      "endDate": "2026-06-30"
+    },
+    {
+      "school": "IVG School",
+      "location": "Ghent, Belgium",
+      "degree": "High School Education (ASO) in Science and Mathematics",
+      "startDate": "2017-09-01",
+      "endDate": "2023-06-30"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "url": ""
+    },
+    {
+      "name": "AWS Certified AI Practitioner",
+      "url": ""
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "url": ""
+    },
+    {
+      "name": "MongoDB Associate Data Modeler",
+      "url": ""
+    },
+    {
+      "name": "Harvard CS50 Python",
+      "url": "https://certificates.cs50.io/5e15747a-ed00-49ee-960c-0c3bbbde5101.pdf"
+    }
+  ],
+  "experiences": [
+    {
+      "logo": "/aws-logo.png",
+      "title": "Solutions Architect",
+      "company": "Amazon Web Services",
+      "location": "Brussels, Belgium",
+      "startDate": "2025-06-30",
+      "endDate": "2025-09-19",
+      "jobType": "Internship",
+      "website": "https://aws.amazon.com/",
+      "description": "Global leader in cloud computing, providing scalable infrastructure and innovative services.",
+      "bulletPoints": [
+        "Delivered an internship project for a customer, with 8 other European customers expressing strong interest.",
+        "Implemented Infrastructure as Code, making the solution reproducible in ~5 minutes.",
+        "Authored an AWS blog post (pending approval) and earned 3 AWS certifications during the internship."
+      ],
+      "summary": "[coming soon]"
+    },
+    {
+      "logo": "/optios-logo.png",
+      "title": "Data Engineer",
+      "company": "Optios",
+      "location": "Lochristi, Belgium",
+      "startDate": "2025-03-01",
+      "endDate": "2025-06-04",
+      "jobType": "Student Job",
+      "website": "https://www.optios.net/",
+      "description": "Optios offers booking, POS, salon management, and marketing software for beauty salons.",
+      "bulletPoints": [
+        "Developed a data pipeline integrating external sources into the CRM for prospect qualification.",
+        "Filtered prospect lists by 30% using data-driven methods, saving 300 hours of manual work."
+      ],
+      "summary": "At Optios, I worked on automating the process of gathering and organizing data about beauty salon owners to help the sales team focus on the most promising leads. I integrated with the CBE (Crossroads\nBank for Enterprises) to pull basic info about the salons and their\nowners. I also set up other automations and tools to enrich the data,\nmaking it faster and easier to figure out which leads were worth\npursuing. My work helped cut down on manual tasks by about 30% and\nmade the whole lead qualification process smoother and more efficient."
+    },
+    {
+      "logo": "/ghent-university-logo.png",
+      "title": "Full Stack Developer",
+      "company": "Ghent University",
+      "location": "Ghent, Belgium",
+      "startDate": "2025-03-01",
+      "endDate": "2025-05-01",
+      "jobType": "Student Job",
+      "website": "https://www.ugent.be/",
+      "description": "Top academic institution in Belgium, known for quality education and research.",
+      "bulletPoints": [
+        "Dove into a non-documented Django/Nuxt.js codebase, forcing me to deepen Docker knowledge and learn SAML."
+      ],
+      "summary": "As part of the Ghent Student Council, I developed and maintained Studium, a platform for students to share notes, summaries, and other academic documents. These documents are protected by Ghent University's copyright policies. I was the sole developer, handling both the backend and frontend with technologies like Django, GraphQL, Vue.js, and Nuxt.js. I was also responsible for documenting the codebase to ensure smooth handovers for future developers."
+    },
+    {
+      "logo": "/fintrax-logo.png",
+      "title": "Software Developer",
+      "company": "Fintrax",
+      "location": "Ghent, Belgium",
+      "startDate": "2024-02-01",
+      "endDate": "2025-03-01",
+      "jobType": "Student Job",
+      "website": "https://www.fintrax.io/",
+      "description": "Fintech scale-up partnering with Silverfin to automate post-accounting and tax processes.",
+      "bulletPoints": [
+        "Implemented document parsing, automating data extraction and eliminating reliance on costly third-party providers."
+      ],
+      "summary": "At Fintrax, I started as a backend developer, working on features like\nPDF parsing and filling to automate text extraction and document\nprocessing. I also integrated with Silverfin for a few features to\nsupport post-accounting and tax automation. As a quick learner, I was\nsoon tasked with frontend development as well, contributing to both\nbackend and frontend features for their Django and Angular web\napplication. My ability to adapt and take on new challenges showed\nthem I could handle anything they had in store."
+    },
+    {
+      "logo": "/eb-accountancy-logo.png",
+      "title": "Software Developer",
+      "company": "EB Accountancy",
+      "location": "Ghent, Belgium",
+      "startDate": "2023-08-01",
+      "endDate": "2024-04-01",
+      "jobType": "Internship",
+      "website": null,
+      "description": "Independent accountant focused on automating accountancy.",
+      "bulletPoints": [
+        "Automated invoice processing using AI + ML classification, cutting processing time to under 1 minute/invoice.",
+        "Lowered manual and cognitive workload for accountants, directly increasing throughput and accuracy.",
+        "Implemented continuous learning and human-in-the-loop, reducing error rates and improving the system with each invoice processed."
+      ],
+      "summary": "At EB Accountancy, I developed InFlow, an AI-powered application for invoice processing and automation. I used Google's AI OCR technology to scan and extract data from invoices uploaded via the application's UI. The extracted data was then checked, normalized, and stored in a relational database. I also built a frontend annotation tool that allowed users to provide feedback directly on the AI's extracted bounding boxes, which was used to further train the AI and improve its accuracy. Additionally, I implemented a system to classify processed invoices into the correct account numbers. The application was deployed on Google Cloud, ensuring scalability and cost efficiency, while the MLOps pipeline I developed created a continuous feedback loop to improve system performance over time."
+    }
+  ],
+  "projects": [
+    {
+      "showOnResume": false,
+      "showInFrontend": false,
+      "image": "/cbe-logo.png",
+      "title": "The CBE Python Package",
+      "link": "https://pypi.org/project/cbe/",
+      "description": "Python package providing a simple interface to interact with the CBE database. Enables authentication, data extraction, and enterprise queries with SQLite storage.",
+      "impact": "Saves developers time by eliminating the need to reinvent the wheel.",
+      "technologies": ["Python", "SQLite", "Github Actions", "Sphinx", "PyPi"]
+    },
+    {
+      "showOnResume": true,
+      "showInFrontend": true,
+      "image": "/rijexamenmeldingen-logo.png",
+      "link": "https://aziz-baatout.github.io/Rijexamenmeldingen/",
+      "title": "Driving Exam Monitoring System",
+      "description": "Real-time notification service tracking driving exam slot availability. Monitors changes and sends instant notifications via email, Discord, and Telegram.",
+      "impact": "Cut users' driving exam wait times from months to just days.",
+      "technologies": ["FastAPI", "MongoDB", "Google Cloud", "Docker", "Stripe"]
+    },
+    {
+      "showOnResume": true,
+      "showInFrontend": true,
+      "image": "/ML.png",
+      "link": "https://aziz-baatout.github.io/tv-viewership-forecast/",
+      "title": "TV Viewership Forecasting (University Project)",
+      "description": "Developed an end-to-end ML system (ETL → modeling → inference API) for forecasting TV viewership, achieving MAPE 13% and R² 0.94.",
+      "impact": "Demonstrated comprehensive machine learning pipeline development skills.",
+      "technologies": ["Python", "Pandas", "Scikit-learn", "FastAPI"]
+    },
+    {
+      "showOnResume": false,
+      "showInFrontend": true,
+      "image": "/blockchain.png",
+      "title": "Blockchain Prototype",
+      "link": "https://github.com/aziz-baatout/blockchain-prototype",
+      "description": "RESTful API built with Node.js and TypeScript demonstrating blockchain fundamentals: wallet management, transactions, and block creation. A learning-focused implementation exploring blockchain concepts.",
+      "impact": "Demonstrated blockchain fundamentals and Node.js/TypeScript proficiency through hands-on implementation.",
+      "technologies": ["Node.js", "TypeScript", "Koa", "MongoDB", "Prisma", "Blockchain", "Cryptography"]
+    },
+    {
+      "showOnResume": false,
+      "showInFrontend": false,
+      "image": "/fe-gpu.png",
+      "title": "NVIDIA FE Bot",
+      "description": "Real-time bot monitoring NVIDIA GPU stock availability with automated notifications. This project sparked my deeper interest in programming and technology.",
+      "impact": "Helped me and my friends secure GPUs amidst high demand.",
+      "technologies": ["Python", "Web Scraping"]
+    }
+  ],
+  "techstack": [
+    { "name": "Python" },
+    { "name": "Java" },
+    { "name": "JavaScript" },
+    { "name": "TypeScript" },
+    { "name": "Node.js" },
+    { "name": "Angular" },
+    { "name": "React" },
+    { "name": "Next.js" },
+    { "name": "Vue" },
+    { "name": "Nuxt.js" },
+    { "name": "Tailwind" },
+    { "name": "Express" },
+    { "name": "Django" },
+    { "name": "FastAPI" },
+    { "name": "Flask" },
+    { "name": "GraphQL" },
+    { "name": "Redis" },
+    { "name": "MySQL" },
+    { "name": "PostgreSQL" },
+    { "name": "SQL Server" },
+    { "name": "MongoDB" },
+    { "name": "AWS" },
+    { "name": "GCloud" },
+    { "name": "Linux" },
+    { "name": "Docker" },
+    { "name": "Kafka" },
+    { "name": "Spark" },
+    { "name": "Git" },
+    { "name": "Terraform" },
+    { "name": "Pulumi" },
+    { "name": "TensorFlow" },
+    { "name": "Scikit-learn" },
+    { "name": "GH Actions" }
+  ],
+  "languages": [
+    { "name": "Dutch", "level": "Native" },
+    { "name": "Arabic", "level": "Native" },
+    { "name": "French", "level": "Proficient" },
+    { "name": "English", "level": "Proficient" }
+  ]
+}

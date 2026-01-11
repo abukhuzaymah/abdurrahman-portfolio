@@ -1,0 +1,186 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[T1]{fontenc}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+\usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+% \usepackage{mathpazo}
+% \usepackage{times}
+% \usepackage{lmodern}
+
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\textwidth}{1.5in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape AZIZ BAATOUT} \\ \vspace{1pt}
+    \small Student Software Developer \\ \vspace{2pt}
+    \small +32456150084 $|$ 
+    \href{https://linkedin.com/in/aziz-baatout}{\underline{linkedin.com/in/aziz-baatout}} $|$ \href{https://github.com/aziz-baatout}{\underline{github.com/aziz-baatout}} $|$ \href{mailto:aziz.baatout@gmail.com}{\underline{aziz.baatout@gmail.com}} $|$ \href{https://azizbaatout.com}{\underline{azizbaatout.com}}
+\end{center}
+
+\section{Education}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {HoGent}{Sep 2023 -- Jun 2026}
+      {Bachelor of Applied Computer Science, \textbf{AI and Data Engineering}}{Ghent, Belgium}
+\vspace{5pt}
+\resumeSubheading
+      {IVG School}{Sep 2017 -- Jun 2023}
+      {High School Education (ASO) in Science and Mathematics}{Ghent, Belgium}
+  \resumeSubHeadingListEnd
+
+\section{Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {Solutions Architect}{Jun 2025 -- Sep 2025}
+      {Amazon Web Services, Internship}{Brussels, Belgium}
+      \resumeItemListStart
+        \resumeItem{Delivered an internship project \textbf{for a customer}, with \textbf{8 other European customers expressing strong interest}.}
+        \resumeItem{Implemented Infrastructure as Code, making the solution \textbf{reproducible in \textasciitilde{}5 minutes}.}
+        \resumeItem{Authored an AWS blog post (pending approval) and \textbf{earned 3 AWS certifications} during the internship.}
+      \resumeItemListEnd
+\resumeSubheading
+      {Data Engineer}{Mar 2025 -- Jun 2025}
+      {Optios, Student Job}{Lochristi, Belgium}
+      \resumeItemListStart
+        \resumeItem{Developed a data pipeline integrating external sources into the CRM for prospect qualification.}
+        \resumeItem{\textbf{Filtered prospect lists by 30\%} using data-driven methods, \textbf{saving 300 hours of manual work}.}
+      \resumeItemListEnd
+\resumeSubheading
+      {Full Stack Developer}{Mar 2025 -- May 2025}
+      {Ghent University, Student Job}{Ghent, Belgium}
+      \resumeItemListStart
+        \resumeItem{Dove into a non-documented Django/Nuxt.js codebase, forcing me to deepen Docker knowledge and learn SAML.}
+      \resumeItemListEnd
+\resumeSubheading
+      {Software Developer}{Feb 2024 -- Mar 2025}
+      {Fintrax, Student Job}{Ghent, Belgium}
+      \resumeItemListStart
+        \resumeItem{Implemented document parsing, automating data extraction and \textbf{eliminating reliance on costly third-party providers}.}
+      \resumeItemListEnd
+\resumeSubheading
+      {Software Developer}{Aug 2023 -- Apr 2024}
+      {EB Accountancy, Internship}{Brussels, Belgium}
+      \resumeItemListStart
+        \resumeItem{Automated invoice processing using AI + ML classification, \textbf{cutting processing time to under 1 minute/invoice}.}
+        \resumeItem{Lowered manual and cognitive workload for accountants, directly \textbf{increasing throughput and accuracy}.}
+        \resumeItem{Implemented continuous learning and human-in-the-loop, \textbf{reducing error rates} and \textbf{improving the system with each invoice processed}.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\href{https://aziz-baatout.github.io/Rijexamenmeldingen/}{\textbf{Driving Exam Monitoring System}} $|$ \emph{FastAPI, MongoDB, Google Cloud, Docker, Stripe}}{}
+        \resumeItemListStart 
+        \resumeItem{Built a platform serving \textbf{50+ users}, enabling them to secure driving exams \textbf{within 2 weeks} instead of 4--5 months via SBAT.}
+    \resumeItemListEnd
+    \resumeProjectHeading
+        {\href{https://aziz-baatout.github.io/tv-viewership-forecast/}{\textbf{TV Viewership Forecasting (University Project)}} $|$ \emph{Python, Pandas, Scikit-learn, FastAPI}}{}
+        \resumeItemListStart
+        \resumeItem{Developed an end-to-end ML system (ETL → modeling → inference API) for forecasting TV viewership \\ \textbf{MAPE 13\% and R² 0.94}.}
+    \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+\section{Languages}
+  \resumeSubHeadingListStart
+    \item {
+      \small{
+        \textbf{Dutch (Native), Arabic (Native), French (Proficient), English (Proficient)}
+      }
+    }
+  \resumeSubHeadingListEnd
+
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \item {
+      \small{
+        \textbf{AWS Certified Solutions Architect, AWS Certified AI Practitioner, AWS Certified Cloud Practitioner, MongoDB Associate Data Modeler, Harvard CS50 Python}
+      }
+    }
+  \resumeSubHeadingListEnd
+
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \item {
+      \small{
+        \textbf{Java, Python, Scikit-learn, TensorFlow, Django, FastAPI, TypeScript, Next.js, Express, REST, tRPC, GraphQL, PostgreSQL, SQL Server, MongoDB, Kafka, Spark, AWS, GCloud, AWS CDK, Pulumi, Terraform, Turborepo, GitHub Actions CI/CD}
+      }
+    }
+  \resumeSubHeadingListEnd
+
+\end{document}

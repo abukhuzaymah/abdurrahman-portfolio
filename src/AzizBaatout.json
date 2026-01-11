@@ -1,0 +1,233 @@
+{
+  "name": "Muhammad Abdurrahman Ismath",
+  "title": "AI Research Engineer & Full Stack Developer",
+  "city": "London",
+  "country": "United Kingdom",
+  "phone": "+447944271742",
+  "email": "abdurrahman@souk-ai.co.uk",
+  "links": [
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/in/abdurrahman-ismath" },
+    { "name": "GitHub", "url": "https://github.com/abukhuzaymah" },
+    { "name": "Email", "url": "mailto:abdurrahman@souk-ai.co.uk" }
+  ],
+  "education": [
+    {
+      "school": "University",
+      "location": "United Kingdom",
+      "degree": "Computer Science & AI",
+      "startDate": "2018-09-01",
+      "endDate": "2022-06-30"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "ICML 2025 — Muslims in ML Workshop (Research Presenter)",
+      "url": "https://openreview.net/forum?id=cUrpXutiLY&noteId=cUrpXutiLY"
+    },
+    {
+      "name": "Imperial College Haqqathon — 1st Place",
+      "url": ""
+    },
+    {
+      "name": "Machine Learning Specialization",
+      "url": ""
+    }
+  ],
+  "experiences": [
+    {
+      "logo": "/remedyrootslogo.png",
+      "title": "AI Engineer",
+      "company": "Remedy Roots",
+      "location": "London, United Kingdom",
+      "startDate": "2025-11-01",
+      "endDate": null,
+      "jobType": "Full-time",
+      "website": "",
+      "description": "AI-driven healthcare platform specializing in Islamic medical knowledge extraction and contextualization.",
+      "bulletPoints": [
+        "Developing Retrieval-Augmented Generation (RAG) architectures for medical knowledge systems.",
+        "Designing and implementing vector database solutions for efficient knowledge retrieval.",
+        "Integrating large language models to extract and contextualize Islamic medical knowledge.",
+        "Engineering sophisticated AI prompting systems for nuanced medical information delivery.",
+        "Building production-ready ML pipelines combining traditional medicine with modern AI technology."
+      ],
+      "summary": "AI Engineer at Remedy Roots, an AI-driven healthcare platform focused on Islamic medical knowledge. Developing advanced RAG architectures and vector database systems to extract and contextualize traditional medical knowledge. Integrating LLMs with sophisticated prompt engineering to create nuanced AI solutions that bridge traditional Islamic medicine with modern machine learning techniques."
+    },
+    {
+      "logo": "/Peerrlogo.png",
+      "title": "Full Stack Engineer & AI Engineer",
+      "company": "Peerr",
+      "location": "London, United Kingdom",
+      "startDate": "2025-10-01",
+      "endDate": null,
+      "jobType": "Full-time",
+      "website": "https://peerr.io/",
+      "description": "AI-driven platform helping healthcare professionals transition into industry roles.",
+      "bulletPoints": [
+        "Leading design and implementation of AI-powered CV builder using OCR and NLP techniques.",
+        "Developing automated job-matching system with ML models for personalized career recommendations.",
+        "Building real-time CV generation system capable of parsing and restructuring user data.",
+        "Designing AI career coach feature using structured prompting techniques and LLM integration.",
+        "Combining full-stack development with machine learning to create product-oriented AI solutions."
+      ],
+      "summary": "Full Stack Engineer & AI Engineer at Peerr, contributing to an AI-driven platform that helps healthcare professionals transition into industry roles. Leading the technical development of core features including an AI-powered CV builder and automated job-matching system. Independently designed a real-time CV generation system using OCR and NLP techniques, with long-term goal of fine-tuning models for personalized career transition recommendations."
+    },
+    {
+      "logo": "/Full-Logo_Black_RGB.svg",
+      "title": "Founder & AI Engineer",
+      "company": "SoukAI",
+      "location": "London, United Kingdom",
+      "startDate": "2024-01-01",
+      "endDate": null,
+      "jobType": "Full-time",
+      "website": "https://souk-ai.co.uk/",
+      "description": "AI-powered broker system standardizing transaction documents between buyers and sellers in the oil & gas trade.",
+      "bulletPoints": [
+        "Building FastAPI + PostgreSQL backend with LLM integrations for document review and entity extraction.",
+        "Implementing OCR + LLM pipelines for document analysis and automation in oil and gas transactions.",
+        "Developing negotiation automation system to facilitate trade agreements.",
+        "Research accepted and presented at ICML 2025 Muslims in ML Workshop on Agentic AI systems."
+      ],
+      "summary": "Founder of SoukAI, an AI-powered broker system standardizing transaction documents between buyers and sellers in oil & gas trade. Building the backend with FastAPI and PostgreSQL, integrating LLMs for document review, entity extraction, and negotiation automation. Research on OCR + LLM pipelines for document analysis accepted at ICML 2025."
+    },
+    {
+      "logo": "/forwardtech-logo.png",
+      "title": "Co-Founder",
+      "company": "ForwardTech Solutions",
+      "location": "London, United Kingdom",
+      "startDate": "2023-06-01",
+      "endDate": null,
+      "jobType": "Part-time",
+      "website": "",
+      "description": "Consultancy services for UK businesses looking for digital products such as websites.",
+      "bulletPoints": [
+        "Led business development and managed technical team building web scraping systems.",
+        "Developed solutions using Companies House APIs for business data extraction.",
+        "Planning Google Maps enrichment tools for enhanced business intelligence.",
+        "Bridged technical implementation with client requirements and business strategy."
+      ],
+      "summary": "Co-founded ForwardTech Solutions, providing consultancy services for UK businesses looking for digital products such as websites. Led business development and managed a team building web scraping systems using Companies House APIs, with plans for Google Maps enrichment tools to provide enhanced business intelligence services."
+    }
+  ],
+  "projects": [
+    {
+      "showOnResume": true,
+      "showInFrontend": true,
+      "image": "/spacecraft-orbiting-planet-earth-global-communications-generated-by-ai.jpg",
+      "link": "https://github.com/abukhuzaymah/satellite-fire-explosion-classifier",
+      "title": "ML Fire vs. Explosion Classifier — NASA Satellite Data",
+      "description": "First ML system to distinguish between natural fires and military explosions in conflict zones using NASA FIRMS satellite data. Deployed production-ready Flask API with interactive Leaflet.js dashboard. Achieved 80-85% F1-score with ensemble CNN-LSTM architecture processing 375m resolution data in real-time.",
+      "impact": "Enables humanitarian organizations to rapidly identify military attacks in conflict zones with restricted access. Open-source project supporting conflict documentation and emergency response.",
+      "technologies": ["Python", "LSTM", "CNN", "XGBoost", "Flask", "Scikit-learn", "NASA FIRMS", "Leaflet.js", "PostGIS"]
+    },
+    {
+      "showOnResume": true,
+      "showInFrontend": true,
+      "image": "/6e8b8a80-e63f-33de-8072-e2ae7dd40bb9.jpg",
+      "link": "https://github.com/abukhuzaymah/RouteAI",
+      "title": "RouteAI - Emergency Response Optimizer",
+      "description": "Intelligent emergency response platform leveraging ML to optimize medical emergency routing in conflict zones. Winner of Hackathon for Gaza. Integrates real-time geospatial data with ML models for dynamic risk assessment.",
+      "impact": "Demonstrates practical applications of ML in crisis scenarios through real-time decision support for first responders.",
+      "technologies": ["FastAPI", "PostgreSQL", "PostGIS", "Machine Learning", "Geospatial Analysis"]
+    },
+    {
+      "showOnResume": true,
+      "showInFrontend": true,
+      "image": "/pirate-artifacts-arrangement-still-life.jpg",
+      "link": "",
+      "title": "Tarjamah - Islamic Translation Platform (Private - Demo Upon Request)",
+      "description": "Collaborative platform making Islamic works accessible in underserved languages like Japanese. Combines community-driven translation with NLP/ML tools for diacritization, alignment, and quality checking.",
+      "impact": "Making beginner-friendly Islamic materials accessible across language barriers, starting with Japanese translations.",
+      "technologies": ["React", "TypeScript", "NLP", "Machine Learning", "Translation APIs"]
+    },
+    {
+      "showOnResume": true,
+      "showInFrontend": true,
+      "image": "/classroom-kindergarten-interior-design.jpg",
+      "link": "https://github.com/abukhuzaymah/v0-nursery-website-homepage",
+      "title": "Nursery Website",
+      "description": "Modern, responsive website for a nursery business. Features include information sections, galleries, and contact forms designed for optimal user experience.",
+      "impact": "Providing a professional online presence for a local nursery business.",
+      "technologies": ["React", "Next.js", "Tailwind CSS", "TypeScript"]
+    },
+    {
+      "showOnResume": true,
+      "showInFrontend": true,
+      "image": "/man-looking-clothes-full-shot.jpg",
+      "link": "https://github.com/abukhuzaymah/brand-new-store",
+      "title": "Brand New Store - E-commerce Platform",
+      "description": "Full-featured online clothing store with product catalog, shopping cart, and checkout functionality. Built with modern web technologies for optimal performance.",
+      "impact": "Enabling online retail operations with a scalable e-commerce solution.",
+      "technologies": ["React", "Next.js", "E-commerce", "Tailwind CSS", "TypeScript"]
+    },
+    {
+      "showOnResume": true,
+      "showInFrontend": true,
+      "image": "/240430033452pm869301QS-Imperial-Logo-white-text-blue-background-200x200.webp",
+      "link": "https://www.linkedin.com/posts/abdurrahman-ismath_haqqathon-muslim-techforgood-activity-7211041034619760641-US4K",
+      "title": "Imperial College Haqqathon — 1st Place Winner",
+      "description": "Led team to victory at Imperial College London's StemMuslims Hackathon with Muslim-tech-for-good project. Designed, prototyped, and pitched impactful AI-driven solution addressing community needs under tight time constraints.",
+      "impact": "Won first place among Imperial College teams, demonstrating rapid prototyping and presentation skills in competitive environment.",
+      "technologies": ["Python", "Machine Learning", "FastAPI", "React", "AI/ML"]
+    },
+    {
+      "showOnResume": true,
+      "showInFrontend": true,
+      "image": "/icml-conference-logo.png",
+      "link": "https://openreview.net/forum?id=cUrpXutiLY&noteId=cUrpXutiLY",
+      "title": "ICML 2025 Research Paper — Agentic AI for Oil & Gas",
+      "description": "Research paper accepted and presented at ICML 2025 Muslims in ML Workshop. Explores OCR + LLM pipelines for document analysis, automation, and facilitating transactions in the oil and gas trade. Directly informs SoukAI startup development.",
+      "impact": "Research published at premier ML conference (ICML), bridging academic research and real-world application in commodity trading automation.",
+      "technologies": ["OCR", "LLM", "Document Analysis", "FastAPI", "Machine Learning", "NLP"]
+    },
+    {
+      "showOnResume": false,
+      "showInFrontend": true,
+      "image": "/pic03.jpg",
+      "link": "https://github.com/abukhuzaymah/Analyzing-Honey-Production",
+      "title": "Honey Production Forecasting",
+      "description": "Forecasted honey production trends using USDA data. Implemented linear regression model with scikit-learn, showcasing data preprocessing, visualization, and ML pipeline design.",
+      "impact": "Demonstrates foundational ML skills in data analysis and predictive modeling.",
+      "technologies": ["Python", "Scikit-learn", "Pandas", "Data Visualization"]
+    },
+    {
+      "showOnResume": false,
+      "showInFrontend": true,
+      "image": "/ollama.png",
+      "link": "https://github.com/abukhuzaymah/ollama-api-project",
+      "title": "Ollama API Integration",
+      "description": "Demonstrates on-premise LLM integration using Ollama's API. Built lightweight Python script for local model interaction, reflecting experience with LLM infrastructure and experimentation.",
+      "impact": "Shows practical experience with local LLM deployment and API integration.",
+      "technologies": ["Python", "Ollama", "LLM", "API Development"]
+    }
+  ],
+  "techstack": [
+    { "name": "Python" },
+    { "name": "FastAPI" },
+    { "name": "Flask" },
+    { "name": "React" },
+    { "name": "Next.js" },
+    { "name": "TypeScript" },
+    { "name": "Tailwind" },
+    { "name": "PostgreSQL" },
+    { "name": "PostGIS" },
+    { "name": "Scikit-learn" },
+    { "name": "TensorFlow" },
+    { "name": "PyTorch" },
+    { "name": "XGBoost" },
+    { "name": "Pandas" },
+    { "name": "OCR" },
+    { "name": "NLP" },
+    { "name": "LLM" },
+    { "name": "RAG" },
+    { "name": "Leaflet" },
+    { "name": "Git" },
+    { "name": "Docker" },
+    { "name": "Linux" }
+  ],
+  "languages": [
+    { "name": "English", "level": "Native" },
+    { "name": "Arabic", "level": "Native" },
+    { "name": "Tamil", "level": "Proficient" }
+  ]
+}
