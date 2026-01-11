@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://azizbaatout.com/sitemap.xml
+Sitemap: https://abukhuzaymah.github.io/abdurrahman-portfolio/sitemap.xml

@@ -10,13 +10,13 @@ import {
 } from "react-icons/si";
 import { TbFileCv } from "react-icons/tb";
 import StackIcon from "tech-stack-icons";
-import data from "./AzizBaatout.json";
+import data from "./AbdurrahmanIsmath.json";
 import { Experience } from "./types/experience";
 import { Link } from "./types/link";
 import { Project } from "./types/project";
 import { Tech } from "./types/tech";
 
-interface AzizBaatout {
+interface AbdurrahmanIsmath {
   name: string;
   title: string;
   city: string;
@@ -42,7 +42,7 @@ const getLinkIcons = (linkName: string) => {
   }
 };
 
-const getjobSummary = (company: string, title: string, summary: string) => {
+const getjobSummary = (_company: string, _title: string, summary: string) => {
   // Return summary as-is, no custom formatting needed
   return <div>{summary}</div>;
 };
@@ -86,7 +86,7 @@ links.push({
   icon: getLinkIcons("CV"),
 });
 
-export const AzizBaatout: AzizBaatout = {
+export const AbdurrahmanIsmath: AbdurrahmanIsmath = {
   ...data,
   links,
   experiences: data.experiences.map((exp) => ({
@@ -100,3 +100,4 @@ export const AzizBaatout: AzizBaatout = {
     icon: mapping[tech.name],
   })),
 };
+

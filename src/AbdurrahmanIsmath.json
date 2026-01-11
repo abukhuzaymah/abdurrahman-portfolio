@@ -144,8 +144,8 @@
       "showOnResume": true,
       "showInFrontend": true,
       "image": "/classroom-kindergarten-interior-design.jpg",
-      "link": "https://github.com/abukhuzaymah/v0-nursery-website-homepage",
-      "title": "Nursery Website",
+      "link": "https://www.wisdomkidsnursery.com/",
+      "title": "Wisdom Kids Nursery - Live Website",
       "description": "Modern, responsive website for a nursery business. Features include information sections, galleries, and contact forms designed for optimal user experience.",
       "impact": "Providing a professional online presence for a local nursery business.",
       "technologies": ["React", "Next.js", "Tailwind CSS", "TypeScript"]
@@ -231,3 +231,4 @@
     { "name": "Tamil", "level": "Proficient" }
   ]
 }
+

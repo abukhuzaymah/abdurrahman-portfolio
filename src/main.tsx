@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { AzizBaatout } from "./AzizBaatout";
+import { AbdurrahmanIsmath } from "./AbdurrahmanIsmath";
 import ExperienceTimeline from "./components/ExperienceTimeline";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
@@ -12,15 +12,15 @@ createRoot(document.getElementById("root")!).render(
     <div className="full-background">
       <div className="relative max-h-screen overflow-y-auto">
         <Hero
-          name={AzizBaatout.name}
-          title={AzizBaatout.title}
-          city={AzizBaatout.city}
-          country={AzizBaatout.country}
-          links={AzizBaatout.links}
+          name={AbdurrahmanIsmath.name}
+          title={AbdurrahmanIsmath.title}
+          city={AbdurrahmanIsmath.city}
+          country={AbdurrahmanIsmath.country}
+          links={AbdurrahmanIsmath.links}
         />
-        <ExperienceTimeline experiences={AzizBaatout.experiences} />
-        <Projects projects={AzizBaatout.projects.filter((project) => project.showInFrontend)} />
-        <TechStack techStack={AzizBaatout.techstack} />
+        <ExperienceTimeline experiences={AbdurrahmanIsmath.experiences} />
+        <Projects projects={AbdurrahmanIsmath.projects.filter((project) => project.showInFrontend)} />
+        <TechStack techStack={AbdurrahmanIsmath.techstack} />
       </div>
     </div>
   </StrictMode>
